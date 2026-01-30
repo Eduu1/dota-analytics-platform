@@ -6,8 +6,6 @@ O projeto simula uma **plataforma de dados em produção**, evoluindo desde inge
 
 ---
 
-> **“ plataforma sólida > vários projetos isolados.”**
-
 A plataforma foi desenhada para permitir a evolução natural de:
 - Analytics → ML → Produto
 - Batch → API
