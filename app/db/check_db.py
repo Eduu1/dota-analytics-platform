@@ -12,5 +12,9 @@ query = con.execute(
     """
 ).fetchdf()
 
+print(con.execute("Show tables").fetch_df())
+print(con.execute("describe public_matches").fetch_df())
+
+
 print(query)
 con.close()
