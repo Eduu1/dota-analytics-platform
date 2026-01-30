@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Poetry / virtualenv
+.venv/
+
+# Environment variables
+.env
+
+# Databases
+*.duckdb
+
+# OS
+.DS_Store
