@@ -1,15 +1,17 @@
 # Python
 __pycache__/
-*.pyc
-
-# Poetry / virtualenv
+*.py[cod]
+*.egg-info/
 .venv/
-
-# Environment variables
 .env
 
-# Databases
-*.duckdb
+# Poetry
+poetry.lock
 
-# OS
+# OS / editor
 .DS_Store
+.vscode/
+
+# Data
+data/
+
