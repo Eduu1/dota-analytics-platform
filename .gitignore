@@ -2,16 +2,15 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
+
+# Virtual environment
 .venv/
 .env
 
-# Poetry
-poetry.lock
-
-# OS / editor
+# OS / Editor
 .DS_Store
 .vscode/
 
-# Data
+# Data warehouse / local databases
 data/
-
+*.duckdb
